@@ -1,0 +1,15 @@
+		    UTF-16 to UTF-8 Encoder
+		-----------------------------
+
+What is it ?
+------------
+
+This codes decodes a file in UTF-16 format and encodes it in UTF-8 format.
+
+
+Implementation -
+----------------
+
+Language Used - Python
+
+	
