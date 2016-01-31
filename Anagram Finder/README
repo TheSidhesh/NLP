@@ -1,0 +1,25 @@
+		      ANAGRAM FINDER
+		-----------------------------
+
+What is it ?
+------------
+
+This codes lists all the anagrams of a given word.
+
+Input -
+-------
+
+Input to the program is a word : mate
+
+
+Output - 
+---------
+
+This code will write all the anagrams of the input word into an output file
+
+Implementation -
+----------------
+
+Language Used - Python
+
+	
