@@ -1,0 +1,6 @@
+			Precision	Recall	F1
+Deceptive	0.78		0.93	0.85
+Truthful	0.91		0.74	0.81
+Negative	0.95		0.89	0.92
+Positive	0.90		0.95	0.92
+Weighted Avg.					0.88

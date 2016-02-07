@@ -1,0 +1,45 @@
+	        NAIVE BAYES CLASSIFIER
+	----------------------------------------------
+
+What is it ?
+------------
+
+These is a Naive Bayes Classifier to identify hotel reviews as either truthful or deceptive, and either positive or negative. Words as tokens have been used as features.
+
+Input -
+-------
+
+Input to the program has two parts:
+
+1) Input to nblearn.py (Learning agent)
+   The path to the folders containing all the reviews is to be given. It should contain negative, positive, truthful and deceptive reviews.
+
+2) Input to nbclassify.py
+   The path to a folder which contains all the files to be classified.
+
+
+Output - 
+---------
+
+nblearn.py will create nbmodel.txt which contains the probablitites of a word occuring in all of the classes. This data is in json format.
+
+nbclassify.py will create nboutput.txt which contains the classification of every file in this format - 
+negative/positive truthfull/deceptive path/to/file/classified
+
+
+Usage
+----------------
+
+1) Invoke nblearn.py
+
+-->python nblearn.py /path/to/input
+
+2) Invoke nbclassify.py
+
+-->python nbclassify.py /path/to/input
+
+----------------
+
+Language Used - Python
+
+	
