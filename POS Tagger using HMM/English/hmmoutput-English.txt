@@ -1,0 +1,4 @@
+time/FF flies/VB like/IN an/DT arrow/FF
+people/FF like/VB milk/FF
+drink/VB milk/FF save/VB time/FF
+people/FF drink/VB mill/FF at/IN the/DT job/FF
