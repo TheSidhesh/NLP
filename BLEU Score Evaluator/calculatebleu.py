@@ -5,12 +5,8 @@ from itertools import tee, islice
 import math
 from math import log
 
-#candidatepath="/Users/sidhesh/Documents/workspace/BLEU/testcandidate.txt"
-#referencepath="/Users/sidhesh/Documents/workspace/BLEU/reference1"
-candidatepath="/Users/sidhesh/Documents/workspace/BLEU/candidate-2.txt"
-referencepath="/Users/sidhesh/Documents/workspace/BLEU/reference-2.txt"
-#candidatepath = sys.argv[1]
-#referencepath = sys.argv[2]
+candidatepath = sys.argv[1]
+referencepath = sys.argv[2]
 candidatelist=[]
 
 f=open(candidatepath, 'r')
@@ -96,17 +92,15 @@ def calcbleuscore(ngram):
         
         for w in candidatecounter:
             
-            #print"-------------"
-            #print "word:",w
             candcount = candidatecounter[w]
             maxcount=-99
-            #print "candcount:",candcount
+            
             for i in range(0,len(referencelist)):
                 tempcount=referencecounter[i][w]
-                #print "tempcount: ",tempcount
+                
                 if(tempcount>maxcount):
                     maxcount=tempcount
-                #print "maxcount:",maxcount
+                
             if candcount<maxcount:
                 final=(candcount*1.0)
             else:
@@ -144,7 +138,7 @@ for i in range(0,4):
         temp+=log(bleu[i])
         
 finalbleu=(math.exp((0.25)*(temp)))*bp
-#print finalbleu
+
 f5=open("bleu_out.txt","w")
 f5.write(str(finalbleu))
 f5.close()
