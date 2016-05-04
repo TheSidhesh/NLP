@@ -1,5 +1,5 @@
-       Hidden Markov Model part-of-speech tagger
-	----------------------------------------------
+       	   BLEU Score Evaluator
+	-------------------------------------
 
 What is it ?
 ------------
