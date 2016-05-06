@@ -11,7 +11,7 @@ Input -
 
 Input to the program:
 	1) A candidate file for which the score is to be evaluated
-	2) Single or multiple reference files. Multiple reference files must be stored in a folder separately.
+	2) Single or multiple reference files. Multiple reference files must be stored in a folder separately. The German, Greek and Portuguese reference translations above are excerpted from the common test set of the [EUROPARL corpus](http://www.statmt.org/europarl/archives.html)
 
 
 Output - 
